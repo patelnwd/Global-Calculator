@@ -8,7 +8,7 @@ const calculators = [
   {
     title: "EMI Calculator",
     description: "Calculate monthly installments with ease.",
-    link: "/calculators/emi",
+    link: "/calculators/financial/emi",
     icon: <Calculator className="w-6 h-6 text-violet-600" />,
   },
   {
