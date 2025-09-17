@@ -1,73 +1,76 @@
-# Javascript Project - VS Code Profiles – Extensions & Settings
+# 🌐 Global Calculator
 
-This document lists the recommended **extensions**, **settings.json configurations**, and a **shared .editorconfig** file for different project types JavaScript/TypeScript.
-
-Use **VS Code Profiles** to keep them separate and switch between them easily.
+Welcome to **Global Calculator**, a modern, user-friendly Next.js app that provides a variety of calculators to simplify financial and business decisions. Our goal is to make calculations easy, accurate, and accessible to everyone.  
 
 ---
 
-## 🔹 JavaScript / TypeScript Profile
+## 🚀 Current Implementation
 
+The project is currently focused on **Phase 1: Financial Calculators**, implemented using **Next.js (App Router + TypeScript)**, **Tailwind CSS**, and **Shadcn/UI** for UI components.  
+---
 
-### 📦 Extensions
+## 🧮 Planned Calculators
 
-- Prettier - Code formatter (`esbenp.prettier-vscode`)
-- ESLint (`dbaeumer.vscode-eslint`)
-- JavaScript and TypeScript Nightly (`ms-vscode.vscode-typescript-next`) _(optional)_
-- Path Intellisense (`christian-kohler.path-intellisense`)
-- Material Icon Theme (`PKief.material-icon-theme`)
-- Better Comments (`aaron-bond.better-comments`)
-- GitLens (`eamodio.gitlens`)
-- Auto Import (`steoates.autoimport`)
+| Category                  | Calculators |
+|---------------------------|-------------|
+| **Business Calculators**  | Break Even, Discount, Inventory Turnover, Markup Markdown, Payroll, Profit Margin, ROI, Tip, VAT / Sales Tax |
+| **Construction Calculators** | Area, Concrete, Flooring, Home Affordability, Lumber, Paint, Renovation Cost, Roof Pitch |
+| **Financial Calculators** | Credit Card Payoff, Currency Converter, EMI, Interest, Investment Return, Loan, Mortgage, Net Worth, Retirement Planning, Savings Goal, Tax |
+| **Health & Fitness Calculators** | BMI, BMR, Body Fat, Calorie, Heart Rate Zone, Ideal Weight, Macronutrient, Pregnancy Due Date, Water Intake |
+| **Math & Science Calculators** | Date Time, Equation Solver, Fraction, Percentage, Scientific, Standard, Statistics, Unit Converter |
+| **Travel Calculators** | Distance, Flight Time, Gas Cost, Mileage, Timezone Converter, Toll Cost, Trip Cost |
+| **Utility Calculators** | Age, Carbon Footprint, Cooking Converter, Discount, Electricity Cost, Split Bill, Time Duration, Tip, Water Usage |
 
-### 💻 Install Command
+---
+## 🛠 Tech Stack
 
-```cmd
-code --install-extension esbenp.prettier-vscode --force
-code --install-extension dbaeumer.vscode-eslint --force
-code --install-extension ms-vscode.vscode-typescript-next --force
-code --install-extension christian-kohler.path-intellisense --force
-code --install-extension PKief.material-icon-theme --force
-code --install-extension aaron-bond.better-comments --force
-code --install-extension eamodio.gitlens --force
-code --install-extension steoates.autoimport --force
-```
+- **Framework:** Next.js 14 (App Router + TypeScript)  
+- **Styling:** Tailwind CSS + Shadcn/UI  
+- **State & Data:** React hooks, optional Zustand / React Query for future features  
+- **Deployment:** GitHub Pages or Vercel  
 
-### Settings JSON
+---
 
-```json
-{
-  "files.eol": "\r\n",
-  "files.insertFinalNewline": true,
-  "files.trimTrailingWhitespace": true,
+## 🎯 Future Development Roadmap
 
-  "editor.tabSize": 2,
-  "editor.insertSpaces": true,
-  "editor.wordWrap": "on",
-  "editor.formatOnSave": true,
-  "editor.rulers": [80, 120],
-  "editor.guides.bracketPairs": "active",
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
+### Phase 2: Financial Calculators Expansion
+- Loan Calculator (Interest, Tenure, EMI)
+- Mortgage Calculator
+- Savings / Investment Calculator
 
-  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+### Phase 3: Business Calculators
+- Break-even Calculator
+- Profit Margin Calculator
+- ROI Calculator
 
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "eslint.enable": true,
-  "eslint.run": "onSave",
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true,
-    "source.fixAll.eslint": true
-  },
+### Phase 4: Advanced Features
+- User authentication (optional)
+- Dark mode toggle
+- Charts & visualization for results
+- Multi-language support
 
-  "prettier.semi": true,
-  "prettier.trailingComma": "es5",
-  "prettier.singleQuote": false,
-  "prettier.endOfLine": "crlf"
-}
-```
+### Phase 5: Community & Contribution
+- Open-source contributions
+- Feature requests and issue tracking
+- CI/CD with GitHub Actions for automated deployments
 
+---
+
+## 🤝 Contribution Guidelines
+
+We welcome contributions from everyone! Here’s how you can help:
+
+1. **Fork the repository**
+2. **Create a branch** for your feature or bugfix
+   ```bash
+   git checkout -b feature/my-new-feature
+   ```
+3. Make your changes and commit
+   ```bash
+    git commit -m "Add: description of your feature"
+   ```
+4. Push to your branch
+   ```bash
+   git push origin feature/my-new-feature
+   ```
+5. **Open a Pull Request** to merge into main

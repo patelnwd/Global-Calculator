@@ -95,8 +95,8 @@ function createRoutes() {
       if (!fs.existsSync(pagePath)) {
         fs.writeFileSync(
           pagePath,
-          `import ${toPascalCase(calc)}Form from "./Form";
-import ${toPascalCase(calc)}Result from "./Result";
+          `import ${toPascalCase(calc)}Form from "./form";
+import ${toPascalCase(calc)}Result from "./result";
 
 export default function ${toPascalCase(calc)}Page() {
   return (
@@ -112,7 +112,7 @@ export default function ${toPascalCase(calc)}Page() {
       }
 
       // Generate Form.tsx
-      const formPath = path.join(folderPath, "Form.tsx");
+      const formPath = path.join(folderPath, "form.tsx");
       if (!fs.existsSync(formPath)) {
         fs.writeFileSync(
           formPath,
@@ -130,7 +130,7 @@ export default function ${toPascalCase(calc)}Page() {
       }
 
       // Generate Result.tsx
-      const resultPath = path.join(folderPath, "Result.tsx");
+      const resultPath = path.join(folderPath, "result.tsx");
       if (!fs.existsSync(resultPath)) {
         fs.writeFileSync(
           resultPath,

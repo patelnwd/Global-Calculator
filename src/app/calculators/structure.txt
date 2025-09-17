@@ -1,0 +1,323 @@
+Folder PATH listing for volume NVMe
+Volume serial number is 789F-4729
+D:.
+|   structure.txt
+|   
++---business
+|   +---break-even
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---discount
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---inventory-turnover
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---markup-markdown
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---payroll
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---profit-margin
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---roi
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---tip
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   \---vat-sales-tax
+|           form.tsx
+|           page.tsx
+|           result.tsx
+|           
++---construction
+|   +---area
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---concrete
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---flooring
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---home-affordability
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---lumber
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---paint
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---renovation-cost
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   \---roof-pitch
+|           form.tsx
+|           page.tsx
+|           result.tsx
+|           
++---financial
+|   +---credit-card-payoff
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---currency-converter
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---emi
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---interest
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---investment-return
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---loan
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---mortgage
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---net-worth
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---retirement-planning
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---savings-goal
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   \---tax
+|       +---income-tax
+|       |       form.tsx
+|       |       page.tsx
+|       |       result.tsx
+|       |       
+|       \---property-tax
+|               form.tsx
+|               page.tsx
+|               result.tsx
+|               
++---health-fitness
+|   +---bmi
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---bmr
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---body-fat
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---calorie
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---heart-rate-zone
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---ideal-weight
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---macronutrient
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---pregnancy-due-date
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   \---water-intake
+|           form.tsx
+|           page.tsx
+|           result.tsx
+|           
++---math-science
+|   +---date-time
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---equation-solver
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---fraction
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---percentage
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---scientific
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---standard
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---statistics
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   \---unit-converter
+|           form.tsx
+|           page.tsx
+|           result.tsx
+|           
++---travel
+|   +---distance
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---flight-time
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---gas-cost
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---mileage
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---timezone-converter
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   +---toll-cost
+|   |       form.tsx
+|   |       page.tsx
+|   |       result.tsx
+|   |       
+|   \---trip-cost
+|           form.tsx
+|           page.tsx
+|           result.tsx
+|           
+\---utility
+    +---age
+    |       form.tsx
+    |       page.tsx
+    |       result.tsx
+    |       
+    +---carbon-footprint
+    |       form.tsx
+    |       page.tsx
+    |       result.tsx
+    |       
+    +---cooking-converter
+    |       form.tsx
+    |       page.tsx
+    |       result.tsx
+    |       
+    +---discount
+    |       form.tsx
+    |       page.tsx
+    |       result.tsx
+    |       
+    +---electricity-cost
+    |       form.tsx
+    |       page.tsx
+    |       result.tsx
+    |       
+    +---split-bill
+    |       form.tsx
+    |       page.tsx
+    |       result.tsx
+    |       
+    +---time-duration
+    |       form.tsx
+    |       page.tsx
+    |       result.tsx
+    |       
+    +---tip
+    |       form.tsx
+    |       page.tsx
+    |       result.tsx
+    |       
+    \---water-usage
+            form.tsx
+            page.tsx
+            result.tsx
+            

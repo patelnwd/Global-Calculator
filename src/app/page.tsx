@@ -8,19 +8,19 @@ const calculators = [
   {
     title: "EMI Calculator",
     description: "Calculate monthly installments with ease.",
-    link: "/calculators/financial/emi",
+    link: "./calculators/financial/emi",
     icon: <Calculator className="w-6 h-6 text-violet-600" />,
   },
   {
     title: "Loan Calculator",
     description: "Plan your loan payments smartly.",
-    link: "/calculators/loan",
+    link: "/calculators/financial/loan",
     icon: <Wallet className="w-6 h-6 text-violet-600" />,
   },
   {
     title: "Mortgage Calculator",
     description: "Estimate mortgage costs and repayments.",
-    link: "/calculators/mortgage",
+    link: "/calculators/financial/mortgage",
     icon: <Home className="w-6 h-6 text-violet-600" />,
   },
 ];
