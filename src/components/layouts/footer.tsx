@@ -20,9 +20,9 @@ export default function Footer() {
         <div>
           <h4 className="font-semibold mb-3">Important Links</h4>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/about" className="hover:underline">About</Link></li>
+            <li><Link href="/pages/about" className="hover:underline">About</Link></li>
             <li><Link href="/calculators" className="hover:underline">Calculators</Link></li>
-            <li><Link href="/contact" className="hover:underline">Contact</Link></li>
+            <li><Link href="/pages/contact" className="hover:underline">Contact</Link></li>
           </ul>
         </div>
 
@@ -30,8 +30,8 @@ export default function Footer() {
         <div>
           <h4 className="font-semibold mb-3">Legal</h4>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/terms" className="hover:underline">Terms & Conditions</Link></li>
-            <li><Link href="/privacy" className="hover:underline">Privacy Policy</Link></li>
+            <li><Link href="/pages/terms" className="hover:underline">Terms & Conditions</Link></li>
+            <li><Link href="/pages/privacy" className="hover:underline">Privacy Policy</Link></li>
           </ul>
         </div>
 

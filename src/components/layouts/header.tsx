@@ -18,7 +18,7 @@ export default function Header() {
           <Link href="/calculators" className="hover:underline">
             Calculators
           </Link>
-          <Link href="/about" className="hover:underline">
+          <Link href="/pages/about" className="hover:underline">
             About
           </Link>
         </nav>
