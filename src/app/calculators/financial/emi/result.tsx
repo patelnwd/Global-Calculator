@@ -56,15 +56,13 @@ export default function EMIResults({
           <p>Tenure: {months} months</p>
         </div>
       </div>
-
       <div className="mt-6">
         <p className="text-xs text-gray-500">
           * Results are approximate. Use for informational purposes only.
         </p>
-      </div>
-
+      </div>   
       {showSchedule && schedule.length > 0 && (
-        <div className="mt-8 bg-white rounded-lg shadow p-4 overflow-x-auto">
+        <div className="mt-6">
           <h4 className="font-semibold mb-4">Amortization Schedule</h4>
           <table className="w-full text-sm table-auto">
             <thead>
@@ -89,7 +87,7 @@ export default function EMIResults({
             </tbody>
           </table>
         </div>
-      )}
+      )}   
     </div>
   );
 }

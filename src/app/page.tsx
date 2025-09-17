@@ -26,10 +26,7 @@ const calculators = [
 ];
 
 export default function HomePage() {
-  return (
-    <div className="flex flex-col min-h-screen">
-      <Header />
-
+  return (  
       <main className="flex-1 max-w-6xl mx-auto p-6 space-y-16">
         
         {/* Hero Section */}
@@ -97,8 +94,5 @@ export default function HomePage() {
           </Link>
         </section>
       </main>
-
-      <Footer />
-    </div>
   );
 }
